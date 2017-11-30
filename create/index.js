@@ -1,4 +1,4 @@
-exports.register = (req, res, next) => {
+exports.create = (req, res, next) => {
     
     const data = req.body;
     thing.insertThing(data)

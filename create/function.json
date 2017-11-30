@@ -8,7 +8,7 @@
       "methods": [
         "delete"
       ],
-      "route":"api/"
+      "route": "api/"
     },
     {
       "type": "http",

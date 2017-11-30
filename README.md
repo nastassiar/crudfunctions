@@ -1,4 +1,4 @@
-# crudfunctions
+# CRUD for CosmosDB on Azure Functions (serverless)
 An HTTP API for CRUD operations against CosmosDB to be run on Azure Functions. (So boring, why would you write it yourself?!!)
 
 

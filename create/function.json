@@ -11,6 +11,15 @@
       "route": "api/"
     },
     {
+      "name": "document",
+      "type": "documentDB",
+      "databaseName": "MyDatabase",
+      "collectionName": "MyCollection",
+      "createIfNotExists": true,
+      "connection": "CosmosDBConnection",     
+      "direction": "out"
+    },
+    {
       "type": "http",
       "direction": "out",
       "name": "res"

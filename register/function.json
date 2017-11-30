@@ -8,7 +8,7 @@
       "methods": [
         "delete"
       ],
-      "route":"api/game-server/{server}"
+      "route":"api/"
     },
     {
       "type": "http",

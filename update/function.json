@@ -11,6 +11,24 @@
       "route": "api/{id}"
     },
     {
+      "name": "documents",
+      "type": "documentdb",
+      "direction": "in",
+      "databaseName": "MyDb",
+      "collectionName": "MyCollection",
+      "sqlQuery": "SELECT * from c where c.id = {id}",
+      "connection": "CosmosDBConnection"
+    },
+    {
+      "name": "document",
+      "type": "documentDB",
+      "databaseName": "MyDatabase",
+      "collectionName": "MyCollection",
+      "createIfNotExists": true,
+      "connection": "CosmosDBConnection",     
+      "direction": "out"
+    },
+    {
       "type": "http",
       "direction": "out",
       "name": "res"

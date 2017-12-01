@@ -14,8 +14,8 @@
       "name": "documents",
       "type": "documentdb",
       "direction": "in",
-      "databaseName": "MyDb",
-      "collectionName": "MyCollection",
+      "databaseName": "DatabaseName",
+      "collectionName": "CollectionName",
       "sqlQuery": "SELECT * from c where c.id = {id}",
       "connection": "CosmosDBConnection"
     },

@@ -11,6 +11,15 @@
       "route": "api/{id}"
     },
     {
+      "name": "documents",
+      "type": "documentdb",
+      "direction": "in",
+      "databaseName": "DatabaseName",
+      "collectionName": "CollectionName",
+      "sqlQuery": "SELECT * from c where c.id = {id}",
+      "connection": "CosmosDBConnection"
+    },
+    {
       "type": "http",
       "direction": "out",
       "name": "res"

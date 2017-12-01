@@ -2,8 +2,8 @@ var DocumentDBClient = require('documentdb').DocumentClient;
 
 var host = process.env[CosmosDB_endpoint];
 var masterKey = process.env[ComosDB_authKey];
-var databaseId = process.env[CosmosDB_databaseId];
-var collectionId = process.env[CosmosDB_collectionId];
+var databaseId = process.env[DatabaseName];
+var collectionId = process.env[CollectionName];
 
 // Establish a new instance of the DocumentDBClient to be used throughout this demo
 var client = new DocumentDBClient( host, { masterKey: masterKey });

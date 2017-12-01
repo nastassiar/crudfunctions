@@ -13,8 +13,8 @@
     {
       "name": "document",
       "type": "documentDB",
-      "databaseName": "MyDatabase",
-      "collectionName": "MyCollection",
+      "databaseName": "DatabaseName",
+      "collectionName": "CollectionName",
       "createIfNotExists": true,
       "connection": "CosmosDBConnection",     
       "direction": "out"

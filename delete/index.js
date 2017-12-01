@@ -11,17 +11,17 @@ var client = new DocumentDBClient( host, { masterKey: masterKey });
 
 module.exports = function(context, req)
 {
-   console.log(masterKey);
-    var docLink = 'dbs/' + databaseId + '/colls/' + collectionId + '/docs/' + context.bindingData.id;
-    console.log(docLink);
+    var documents = context.bindingData.documents;
     if (documents.length == 0) {
         context.res = {
             status: 404, 
-            body: "Document with id "+context.bindings.id+" not found"
+            body: "Document with id "+context.bindingData.id+" not found"
         };
         context.done();
     }
-    else {     
+    else {
+        var docLink = 'dbs/' + databaseId + '/colls/' + collectionId + '/docs/' + context.bindingData.id;
+
         client.deleteDocument(docLink, function (err) {
             if (err) {
                 context.res = {

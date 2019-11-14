@@ -1,3 +1,8 @@
+## NOT ACTIVE
+
+No longer maintaining this as you can do this client side with the (Javascript API)[https://docs.microsoft.com/en-us/azure/cosmos-db/javascript-query-api]!
+
+
 # CRUD for CosmosDB on Azure Functions (serverless)
 An HTTP API for CRUD operations against CosmosDB to be run on Azure Functions. (So boring, why would you write it yourself?!!)
 

@@ -1,6 +1,6 @@
 ## NOT ACTIVE
 
-No longer maintaining this as you can do this client side with the (Javascript API)[https://docs.microsoft.com/en-us/azure/cosmos-db/javascript-query-api]!
+No longer maintaining this as you can do this client side with the [Javascript API](https://docs.microsoft.com/en-us/azure/cosmos-db/javascript-query-api)!
 
 
 # CRUD for CosmosDB on Azure Functions (serverless)
